@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Landscape Classifier</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <div class="bubble">
+    <h1>Landscape Classifier AI</h1>
+    <p>Description of the model here</p>
+
+    <button type="button" class="btn btn-1" onclick="init()">Start!</button>
+
+    <div id="webcam-container"></div>
+
+    <div id="label-container"></div>
+  </div>
+
+  <div class="bubble">
+    <h1>About the Creator</h1>
+    <p>Tell us about yourself!</p>
+  </div>
+
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+
+
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
