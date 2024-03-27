@@ -16,7 +16,7 @@ body{
 }
 
 h1 {
-  text-align: right;
+  text-align: center;
   font-size: 25px;
   margin: 20px 50px 30px 50px;
 }
@@ -31,6 +31,7 @@ bubble {
   width: 80%
   padding: 5px 0;
   margin: 10px 50px;
+  line-align:center;
 }
 .bubble img{
   max-width:100%;
