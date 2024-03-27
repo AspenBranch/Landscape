@@ -31,7 +31,7 @@ bubble {
   width: 80%
   padding: 5px 0;
   margin: 10px 50px;
-  line-align:center;
+  line-item:center;
 }
 .bubble img{
   max-width:100%;
